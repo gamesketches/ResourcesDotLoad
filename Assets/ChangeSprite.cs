@@ -45,7 +45,7 @@ public class ChangeSprite : MonoBehaviour {
 
 		// 
 		if(Input.GetKey(KeyCode.UpArrow)) {
-			renderer.sprite = Resources.Load<Sprite>("Up");
+			renderer.sprite = Resources.Load<Sprite>("Corey");
 		}
 		else if(Input.GetKey(KeyCode.DownArrow)) {
 			renderer.sprite = Resources.Load<Sprite>("Down");
